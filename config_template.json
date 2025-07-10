@@ -1,0 +1,42 @@
+{
+  "filename":"config1.sqlite",
+  "pduspec": {
+    "type":"manual",
+    "pdus": ["pdu1","pdu2","pdu3","pdu4","pdu5","pdu6","pdu7","pdu8","pdu9","pdu10"]
+  },
+  "nodespec": {
+    "types": ["old","TNG","dumpster","2020","wilson"],
+    "nodesets": [
+      {
+        "type":5,
+        "n":20,
+        "location":"random",
+        "naming":"type_seq"
+      },
+      {
+        "type":3,
+        "n":15,
+        "location":"random",
+        "naming":"type_seq"
+      },
+      {
+        "type":4,
+        "n":20,
+        "location":"random",
+        "naming":"type_seq"
+      },
+      {
+        "type":2,
+        "n":10,
+        "location":"random",
+        "naming":"type_seq"
+      },
+      {
+        "type":1,
+        "n":15,
+        "location":"random",
+        "naming":"type_seq"
+      }
+    ]
+  }
+}
