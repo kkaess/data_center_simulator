@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "data-center-simulator"
+version = "0.1.0"
+description = "Toy data center"
+authors = ["kkaess"]
+license = "GPL 3.0"
+readme = "README.md"
+packages = [{include = "data_center_simulator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scipy = "^1.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
