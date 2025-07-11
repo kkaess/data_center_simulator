@@ -64,6 +64,7 @@ if __name__=="__main__":
                 pdu_counters[pduid-1]+=1
                 outlet=pdu_counters[pduid-1]
             QUERY+=f" ({nodecounter},{nodeset['type']},\"{name}\",{pduid},{outlet}),"
+            nodecounter+=1
 
     QUERY=QUERY[:-1]+";"
     prod_cur.execute(QUERY)
